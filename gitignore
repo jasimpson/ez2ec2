@@ -1,0 +1,8 @@
+# Mac specific
+.DS_Store
+
+# SSH key pair file
+*.pem
+
+# Info files
+*.info
