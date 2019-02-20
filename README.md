@@ -58,7 +58,7 @@ Once you have an IAM user created and have their access key and secret access ke
     ```
 
 
-##What the script does
+## What the script does
 
 These are the different steps taken by the script
 
@@ -84,7 +84,6 @@ These are the different steps taken by the script
 Sample initial output should look like
 
 ```ini
-
 jim$ bash ez2ec2.sh
 Checking if AWS CLI is installed
 Using AWS CLI found at /Users/jim/anaconda/bin/aws
@@ -146,5 +145,4 @@ Connect to the instance using:
 ssh -i ~/ez2ec2key.pem ubuntu@54.152.170.[hidden]
 
 jim$
-
 ```
